@@ -1,0 +1,9 @@
+body {
+    background-color: whitesmoke;
+}
+
+.main_block {
+    background-image: url(/img/bg.png);
+    height: 100%;
+    margin: auto 0px auto;
+}
