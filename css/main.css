@@ -54,19 +54,19 @@ body {
     background-repeat: round;
 }
 
-.img1 {
+#img1 {
     background-image: url(/img/ilon.png);
 }
 
-.img2 {
+#img2 {
     background-image: url(/img/alex.png);
 }
 
-.img3 {
+#img3 {
     background-image: url(/img/elena.png);
 }
 
-.img4 {
+#img4 {
     background-image: url(/img/lily.png);
 }
 
@@ -82,3 +82,32 @@ body {
     color: rgba(0, 0, 0, 0.50);
     padding-top: 3px;
 }
+
+.icons {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-repeat: round;
+}
+
+#fb {
+    background-image: url(/img/fb.png);
+}
+
+#twitter {
+    background-image: url(/img/twitter.png);
+}
+
+#google {
+    background-image: url(/img/google.png);
+}
+
+
+
+
