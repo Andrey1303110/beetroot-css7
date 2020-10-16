@@ -1,9 +1,84 @@
 body {
     background-color: whitesmoke;
+    margin: 0;
+    height: 100%;
 }
 
 .main_block {
     background-image: url(/img/bg.png);
-    height: 100%;
-    margin: auto 0px auto;
+    background-repeat: round;
+    width: 1000px;
+    height: 700px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.up_up_text {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 11%;
+}
+
+.up_dw_text {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    position: relative;
+    top: 17%;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 26%;
+}
+
+.img_block {
+    flex-direction: column;
+}
+
+.img {
+    width: 231px;
+    height: 231px;
+    background-repeat: round;
+}
+
+.img1 {
+    background-image: url(/img/ilon.png);
+}
+
+.img2 {
+    background-image: url(/img/alex.png);
+}
+
+.img3 {
+    background-image: url(/img/elena.png);
+}
+
+.img4 {
+    background-image: url(/img/lily.png);
+}
+
+.dw_up_text {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.70);
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+.dw_dw_text {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.50);
+    padding-top: 3px;
 }
