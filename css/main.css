@@ -46,6 +46,7 @@ body {
 
 .img_block {
     flex-direction: column;
+    height: 231px;
 }
 
 .img {
@@ -56,18 +57,22 @@ body {
 
 #img1 {
     background-image: url(/img/ilon.png);
+    opacity: .75;
 }
 
 #img2 {
     background-image: url(/img/alex.png);
+    opacity: .75;
 }
 
 #img3 {
     background-image: url(/img/elena.png);
+    opacity: .75;
 }
 
 #img4 {
     background-image: url(/img/lily.png);
+    opacity: .75;
 }
 
 .dw_up_text {
@@ -75,19 +80,26 @@ body {
     color: rgba(0, 0, 0, 0.70);
     padding-top: 13px;
     font-weight: bold;
+    position: relative;
+    top: -97%;
 }
 
 .dw_dw_text {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.50);
     padding-top: 3px;
+    position: relative;
+    top: -95%;
 }
 
 .icons {
-    width: 100px;
-    height: 45px;
+    width: 105px;
+    height: 35px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    align-items: center;
+    opacity: 1;
 }
 
 .icon {
@@ -95,6 +107,23 @@ body {
     height: 30px;
     background-repeat: round;
 }
+
+.img_hovered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 231px;
+    height: 231px;
+    top: -231px;
+    opacity: 0;
+}
+
+.img_hovered:hover {
+    opacity: 1;
+    background-color: #00aed9b4;
+}
+
 
 #fb {
     background-image: url(/img/fb.png);
@@ -108,6 +137,14 @@ body {
     background-image: url(/img/google.png);
 }
 
+.img:hover {
+    background-color: #00ccffb7;
+}
+
+.icons .icon:hover {
+    transform: scale(2);
+    transition: all .35s cubic-bezier(0.4, 0, 0.4, 1);
+}
 
 
 
