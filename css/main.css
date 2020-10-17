@@ -5,8 +5,7 @@ body {
 }
 
 .main_block {
-    background-image: url(/beetroot-css7-1/img/bg.png);
-    background-image: url(/img/bg.png);
+    background-image: url(/img/bg.png), url(/beetroot-css7-1/img/bg.png);
     background-repeat: round;
     width: 1000px;
     height: 700px;
@@ -61,24 +60,20 @@ body {
 }
 
 #img1 {
-    background-image: url(/beetroot-css7-1/img/ilon.png);
-    background-image: url(/img/ilon.png);
+    background-image: url(/img/ilon.png), url(beetroot-css7-1/img/ilon.png);
 }
 
 #img2 {
-    background-image: url(/beetroot-css7-1/img/alex.png);
-    background-image: url(/img/alex.png);
+    background-image: url(/img/alex.png), url(beetroot-css7-1/img/alex.png);
 
 }
 
 #img3 {
-    background-image: url(/beetroot-css7-1/img/elena.png);
-    background-image: url(/img/elena.png);
+    background-image: url(/img/elena.png), url(beetroot-css7-1/img/elena.png);
 }
 
 #img4 {
-    background-image: url(/beetroot-css7-1/img/lily.png);
-    background-image: url(/img/lily.png);
+    background-image: url(/img/lily.png), url(beetroot-css7-1/img/lily.png);
 }
 
 .dw_up_text {
@@ -124,19 +119,16 @@ body {
 }
 
 #fb {
-    background-image: url(/beetroot-css7-1/img/fb1.png);
-    background-image: url(/img/fb1.png);
+    background-image: url(/img/fb1.png), url(beetroot-css7-1/img/fb1.png);
     
 }
 
 #twitter {
-    background-image: url(/beetroot-css7-1/img/twitter1.png);
-    background-image: url(/img/twitter1.png);
+    background-image: url(/img/twitter1.png), url(beetroot-css7-1/img/twitter1.png);
 }
 
 #google {
-    background-image: url(/beetroot-css7-1/img/google1.png);
-    background-image: url(/img/google1.png);
+    background-image: url(/img/google1.png), url(beetroot-css7-1/img/google1.png);
 }
 
 .icon:hover {
