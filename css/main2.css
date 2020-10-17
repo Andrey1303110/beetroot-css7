@@ -45,7 +45,7 @@ body {
     top: 26%;
 }
 
-.img_block {
+.sect {
     flex-direction: column;
     height: 231px;
 }
@@ -54,30 +54,31 @@ body {
     width: 231px;
     height: 231px;
     background-repeat: round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
 }
 
 #img1 {
     background-image: url(/beetroot-css7-1//img/ilon.png);
     background-image: url(/img/ilon.png);
-    opacity: .75;
 }
 
 #img2 {
     background-image: url(/beetroot-css7-1//img/alex.png);
     background-image: url(/img/alex.png);
-    opacity: .75;
+
 }
 
 #img3 {
     background-image: url(/beetroot-css7-1//img/elena.png);
     background-image: url(/img/elena.png);
-    opacity: .75;
 }
 
 #img4 {
     background-image: url(/beetroot-css7-1//img/lily.png);
     background-image: url(/img/lily.png);
-    opacity: .75;
 }
 
 .dw_up_text {
@@ -85,74 +86,67 @@ body {
     color: rgba(0, 0, 0, 0.70);
     padding-top: 13px;
     font-weight: bold;
-    position: relative;
-    top: -97%;
 }
 
 .dw_dw_text {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.50);
     padding-top: 3px;
-    position: relative;
-    top: -95%;
-}
-
-.icons {
-    width: 105px;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    opacity: 1;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
     background-repeat: round;
-    transition: all .35s cubic-bezier(0.4, 0, 0.4, 1);
+    transition: all cubic-bezier(0.4, 0, 0.4, 1);
+    margin: 4px;
+    visibility: hidden;
 }
 
-.img_hovered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 231px;
-    height: 231px;
-    top: -231px;
-    opacity: 0;
-    transition: cubic-bezier(0, 0, 0, 1);
+#img1:hover {
+    background-image: none;
+    background-color: #00ccff8a;   
 }
 
-.img_hovered:hover {
-    opacity: 1;
-    background-color: #00aed9b4;
+#img2:hover {
+    background-image: none;
+    background-color: #00ccff8a;   
 }
 
+#img3:hover {
+    background-image: none;
+    background-color: #00ccff8a;   
+}
+
+#img4:hover {
+    background-image: none;
+    background-color: #00ccff8a;  
+}
 
 #fb {
     background-image: url(/beetroot-css7-1//img/fb.png);
-    background-image: url(/img/fb.png);
+    background-image: url(/img/fb1.png);
+    
 }
 
 #twitter {
     background-image: url(/beetroot-css7-1//img/twitter.png);
-    background-image: url(/img/twitter.png);
+    background-image: url(/img/twitter1.png);
 }
 
 #google {
     background-image: url(/beetroot-css7-1//img/google.png);
-    background-image: url(/img/google.png);
+    background-image: url(/img/google1.png);
 }
 
-.img:hover {
-    background-color: #00ccffb7;
-}
-
-.icons .icon:hover {
+.icon:hover {
     transform: scale(1.65);
+    display: block;
+}
+
+.img:hover > div {
+    visibility: visible;
+    transition: all .3s ease-in;
 }
 
 
