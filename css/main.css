@@ -118,7 +118,7 @@ body {
     height: 231px;
     top: -231px;
     opacity: 0;
-    transition: all .2s ease-in-out;
+    transition: cubic-bezier(0, 0, 0, 1);
 }
 
 .img_hovered:hover {
